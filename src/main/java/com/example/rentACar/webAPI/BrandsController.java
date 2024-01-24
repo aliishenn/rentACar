@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BrandsController {
     private BrandService brandService;
 
-    //public BrandsController(BrandService brandService) {
-     //   this.brandService = brandService;
-    //}
+    public BrandsController(BrandService brandService) {
+        this.brandService = brandService;
+    }
 }
